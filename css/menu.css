@@ -1,0 +1,38 @@
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu__name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: uppercase;
+}
+
+.menu__list {
+    display: flex;
+    gap: 30px;
+    font-weight: 500;
+}
+
+.menu__list__item a:hover {
+    color:darkorange;
+}
+
+.menu__list__item--contact a {
+    background-color: darkorange;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14.5px;
+    font-weight: 900;
+    margin-top: -8px;
+    border-radius: 10px;
+    padding: 12px 25px;
+}
+
+.menu__list__item--contact a:hover {
+    opacity: 0.8;
+}
